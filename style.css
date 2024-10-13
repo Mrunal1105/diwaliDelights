@@ -1,58 +1,57 @@
 .section1 {
-    background-image: url('https://i.ibb.co/h7hD2C1/anshu-a-qh-Qabxhtiz-Y-unsplash.jpg');
-    min-height: 100vh; /* Changed to min-height */
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    position: relative; /* Added to control stacking */
-    z-index: 1; /* Ensures it is above bgimage if overlapping occurs */
+  background-image: url("https://i.ibb.co/h7hD2C1/anshu-a-qh-Qabxhtiz-Y-unsplash.jpg");
+  min-height: 100vh; /* Changed to min-height */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Added to control stacking */
+  z-index: 1; /* Ensures it is above bgimage if overlapping occurs */
 }
 
 .bgimage {
-    /* background-image: url('/nihal-prabhudesai-pKXznfGHfAY-unsplash.jpg'); */
-    min-height: 100vh; /* Changed to min-height */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-    position: relative;
-    z-index: 0; /* Lower than .section1 */
-    }
+  /* background-image: url('https://i.ibb.co/CJLbPmy/siddharth-shah-be-He41-S5-Rd0-unsplash-1.jpg'); */
+  min-height: 100vh; /* Changed to min-height */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 0; /* Lower than .section1 */
+}
 
 /* Optional: Adjust the opacity if needed */
 
 .dancing-script-700 {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: italic;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
 }
 
-.size{
-    font-size: medium;
-    padding-left: 10px;
-    font-weight: 400;
-    font-family: "Dancing Script";
+.size {
+  font-size: medium;
+  padding-left: 10px;
+  font-weight: 400;
+  font-family: "Dancing Script";
 }
 
 .heading {
-    font-size: 60px;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    width: 80%; /* Adjust as necessary for proper positioning */
+  font-size: 60px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 80%; /* Adjust as necessary for proper positioning */
 }
 
 .circular-image {
-    width: 100px; /* Adjust size as needed */
-    height: 100px; /* Adjust size as needed */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image covers the circular area */
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circular area */
 }
 .carousel-item {
-    text-align: center; /* Centers text */
+  text-align: center; /* Centers text */
 }
-
