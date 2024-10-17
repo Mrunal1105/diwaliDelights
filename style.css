@@ -21,7 +21,6 @@
   background-position: center;
   position: relative;
   z-index: 0; /* Lower than section1 */
-  overflow-y: auto; /* Allow vertical scrolling */
 }
 
 /* Add content to make bgimage scrollable */
